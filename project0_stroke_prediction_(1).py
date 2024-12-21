@@ -22,7 +22,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 
 
-data = pd.read_csv('/kaggle/input/stroke-prediction-dataset/healthcare-dataset-stroke-data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/AfEtaiwi02/FirstProject/main/healthcare-dataset-stroke-data.csv')  # Use the correct file path or URL
 
 print(data.head())
 
